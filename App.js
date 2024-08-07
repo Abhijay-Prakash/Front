@@ -4,7 +4,6 @@ const handleSubmit = async(e) => {
     const inputValue=input.value;
 
     console.log(inputValue);
-git 
     try{
         const response =await fetch('https://server-new-xo66.onrender.com/api/testing/putdata',{
             method: 'POST',
